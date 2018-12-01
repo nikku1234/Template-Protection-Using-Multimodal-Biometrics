@@ -9,3 +9,5 @@ Measurement and statistical analysis of people's unique physical and behavioral 
 Mainly used for Security purpose.
 
 Every person can be accurately identified intrinsic physical or behavioral traits.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+![](diagram.png)
