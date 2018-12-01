@@ -10,4 +10,4 @@ Dimension reduction using PCA Algorithm
 
 Fusion of reduced features 
 
-![A test image](Screenshot 2018-12-02 at 12.08.06 AM.png)
+![A test image2](Screenshot 2018-12-02 at 12.08.06 AM.png)
