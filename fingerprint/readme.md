@@ -20,12 +20,12 @@ if intensity value is less than thresh: pixel is set to 1 (White) --> Foreground
 else : pixel is set to 0 (black) --> Background
 Binarized_Image=adaptiveThres(double(FFTImage),32); % 32 corresponds to the block size
 Adaptive Thresholding refers to using a different threshold for every local window (block of the image). Here, Image is divided into 32 * 32 blocks and mean of the block is used as the threshold
-![picture4](.png)
+![creenshot 2018-12-01 at 11.49.52 PM.png](.png)
 ![picture5](picture5.png)
 
 # Step 4: Orientation Estimation to detect the ROI 
 Finds the horizontal edges , Vertical edges using Sobel Operator
-![picture6](.png)
+![Screenshot 2018-12-01 at 11.51.07 PM.png](.png)
 
 Algorithm:
 Compute 
@@ -44,7 +44,7 @@ If the background_Certainity is found to be less than 0.5 , then the block corre
 Using the computed value , ROI (Region of Interest comprising of fingerprint is extracted)
 
 Intermediate Image Generated after background certainty is as follows
-![picture7](.png)
+![Screenshot 2018-12-01 at 11.52.29 PM.png](.png)
 
 # Step 5: Image Thinning and Minutiae Extraction
 Finally , Image is thinned to obtain the skeleton (thick lines are reduced to thinner lines). Ridge endings and branches are to be identified for which 3*3 mask is run over the thinned image 
