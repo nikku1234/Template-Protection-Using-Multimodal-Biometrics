@@ -49,7 +49,7 @@ Intermediate Image Generated after background certainty is as follows
 # Step 5: Image Thinning and Minutiae Extraction
 Finally , Image is thinned to obtain the skeleton (thick lines are reduced to thinner lines). Ridge endings and branches are to be identified for which 3*3 mask is run over the thinned image 
 
-![picture8](.png)
+![picture8](picture8.png)
 
 
 
